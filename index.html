@@ -1,0 +1,211 @@
+<!Doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0dc1aef84a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/log.png" class="logo">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>UI/UX Designer</p>
+            <h1>Hi, I'm <span>Harini</span><br>From Chennai</h1>
+        </div>
+    </div>
+</div>
+<!-- -----------about----------- -->
+<div id="about">
+ <div class="container">
+    <div class="row">
+        <div class="about-col-1">
+            <img src="images/pass.png">
+        </div>
+        <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>I am a passionate UI/UX designer with experience in creating intuitive and engaging user experiences. I specialize in wireframing, prototyping, and conducting user research to inform design decisions.</p>
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                <p class="tab-links" onclick="openTab('experience')">Experience</p>
+                <p class="tab-links" onclick="openTab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                    <li><span>Web Development</span><br>Building responsive websites</li>
+                    <li><span>App Development</span><br>Building Android apps</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>2021-Current</span><br>UI/UX Design Training at ET Institute.</li>
+                    <li><span>2017 - 2019</span><br>Team lead at StarApp LLC.</li>
+                    <li><span>2015 - 2017</span><br>Junior Designer at DesignHub.</li>
+                    <li><span>2013 - 2015</span><br>Intern at Creative Minds.</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>2011 - 2013</span><br>Bachelor's Degree in Graphic Design from ABC University.</li>
+                    <li><span>2009 - 2011</span><br>Diploma in Web Design from XYZ Institute.</li>
+                    <li><span>2007 - 2009</span><br>High School Diploma from LMN High School.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ----------------services---------------- -->
+ <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"style="font-size: 50px; margin-bottom:30px;color: #fff;"></i>
+                <h2 style="color: #fff;">Web Design</h2>
+                <p style="color: #fff;">Creating responsive and user-friendly websites.</p>
+                <a href="#" style="color: #fff;">learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-instalod"style="font-size: 50px; margin-bottom:30px;color: #fff;"></i>
+                <h2 style="color: #fff;">App Design</h2>
+                <p style="color: #fff;">Designing intuitive mobile applications.</p>
+                <a href="#" style="color: #fff;">learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-file-image"style="font-size: 50px; margin-bottom:30px;color: #fff;"></i>
+                <h2 style="color: #fff;">Graphic Design</h2>
+                <p style="color: #fff;">Crafting visually appealing graphics and branding.</p>
+                <a href="#" style="color: #fff;">learn More</a> 
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -----------portfolio-------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>Social media marketing strategies.This app connects you to the talented people around the world.Download it from play store</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div> 
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>A mobile application for discovering and listening to music.Listen to your favorite songs anytime, anywhere.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div> 
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>An e-commerce application that allows users to browse products, add them to their cart, and complete purchases securely.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div> 
+             
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div> 
+</div>
+</-------contact----------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"style="color: #ff004f; margin-right: 15px; font-size: 25px;"></i>contact@example.com</p>
+                <p><i class="fa-solid fa-square-phone"style="color: #ff004f; margin-right: 15px; font-size: 25px;"></i>0123456789</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://twitter.com"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://linkedin.com"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="images/cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="form">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>&copy; 2026 Harini.<i class="fa-solid fa-heart"style="color: #ff004f;"></i> All rights reserved.</p>
+    </div>
+</div>
+<script>
+    function openTab(tabName) {
+        var i, tabContents, tabLinks;
+        tabContents = document.getElementsByClassName("tab-contents");
+        for (i = 0; i < tabContents.length; i++) {
+            tabContents[i].classList.remove("active-tab");
+        }
+        tabLinks = document.getElementsByClassName("tab-links");
+        for (i = 0; i < tabLinks.length; i++) {
+            tabLinks[i].classList.remove("active-link");
+        }
+        document.getElementById(tabName).classList.add("active-tab");
+        event.currentTarget.classList.add("active-link");
+    }
+</script>
+<script>
+const scriptURL = 'https://script.google.com/macros/s/AKfycbxlGxFSrCtH_xkMLTB1ev0F1jrz0yhCP2m8-jBAiiMuxedO0wQ00b-ywYeuf0MNN1NQ/exec';
+const form = document.forms['form'];
+const msg = document.getElementById('msg');
+
+form.addEventListener('submit', e => {
+    e.preventDefault();
+
+    // Store form data before resetting
+    const formData = new FormData(form);
+
+    // Show message immediately
+    msg.innerHTML = "Message sent successfully";
+
+    // Reset form immediately
+    form.reset();
+
+    // Send data to Google Sheets
+    fetch(scriptURL, {
+        method: 'POST',
+        mode: 'no-cors',
+        body: formData
+    })
+    .catch(error => {
+        console.error('Error!', error);
+        msg.innerHTML = "Something went wrong!";
+    });
+
+    // Hide message after 5 seconds
+    setTimeout(() => {
+        msg.innerHTML = "";
+    }, 5000);
+});
+</script>
+</body>
+</html>
